@@ -1,5 +1,5 @@
-const createName = require('./names'); 
-const createHobbies = require('./hobbies'); 
+const createName = require('names'); 
+const createHobbies = require('hobbies'); 
 
 function createPerson() {
     const fullName = createName('Valentino', 'Rossi'); 
